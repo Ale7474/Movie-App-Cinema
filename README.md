@@ -39,4 +39,4 @@ Este proyecto no lo hice de mi propia imaginación, me ayude de algunos videos y
 
 ## Contacto
 
-Puedes ponerte en contacto conmigo a través de mi sitio web [cristhianjhl.com](cristhianjhl.com) o mi [correo](cristhianjhl@gmail.com)
+Puedes ponerte en contacto conmigo a través de mi sitio web [cristhianjhl.com](https://www.cristhianjhl.com) o mi **cristhianjhl@gmail.com**
