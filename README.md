@@ -1,44 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Movie App - ReactJS
 
-## Available Scripts
+La idea de crear esta aplicación es emular una plataforma de peliculas, listando una serie de películas que se obtiene de la API de TMDB aquí puse en practica varios temas de ReactJS como el routing, la carga condicional de componentes, los functionals components, ,styled components y algo de TypeScripts que aún no manejo al 100%.
 
-In the project directory, you can run:
+[Live Demo](https://movie-show-app-reactjs.netlify.app/)
 
-### `npm start`
+## Características
+Las funciones principales que se pueden encontrar en esta App son las siguientes:
+- Un banner principal donde se muestra una película al azar, que se consigue generando un número random y haciendo una petición a la API pasando por parámetro este número generado.
+- Un filtro para buscar las películas por nombre, gracias a React la actualización de la lista de películas se hace sin recargar la página.
+- Una lista de películas más populares, carga una cantidad predefinida al principio y al llegar al final de la página te da la opción de "cargar más".
+- Al darle clic a una tarjeta de película te re direcciona a una página donde te muestra más detalle sobre la película seleccionada. Todo esto gracias a React Router Dom.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Mejoras
+Algunas de las mejoras que tengo pensado aplicar para esta aplicación son la siguiente:
+- Al dar clic sobre una película abra una single page o popup con más información detallada sobre la pelicula.
+- Consumir otra API tercera para reproducir los traillers de cada película.
+- Poder crear una cuenta y sistema de login.
+- Que se pueda dar Likes y/o guardar como favoritos
+- Poder dar clic a los actores en la información detallada de las películas y ver su información en una nueva página o popup.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Tecnologías utilizadas
+- React versión: `17.0.1`
+- Styled Component: `5.2.0`
+- React Router DOM: `5.2.0`
+- TypeScript: `3.7.5`
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React Movie App with ReactJS](https://media.giphy.com/media/XmC6iskOCQpNnSUY8Z/giphy.gif)
 
-### `npm run build`
+## Recursos
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este proyecto no lo hice de mi propia imaginación, me ayude de algunos videos y usando algunas documentación:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Idea original [Weibenfalk - YouTube Channel](https://www.youtube.com/channel/UCnnnWy4UTYN258FfVGeXBbg)
+- Como usar [React Router DOM](https://reactrouter.com/web/guides/quick-start)
+- Como usar [Styled Components](https://styled-components.com/docs/advanced)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contacto
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Puedes ponerte en contacto conmigo a través de mi sitio web [cristhianjhl.com](cristhianjhl.com) o mi [correo](cristhianjhl@gmail.com)
